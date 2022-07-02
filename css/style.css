@@ -395,6 +395,19 @@ margin: 1rem 0 2.4rem;
     transition: var(--transition);
 }
 
+figure {
+    overflow: hidden;
+}
+
+.course_image img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.course_image:hover img {
+    transform: scale(1.2);
+}
+
 .course:hover {
     background: transparent;
     border-color: var(--color-primary);
