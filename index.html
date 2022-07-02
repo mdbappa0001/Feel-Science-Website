@@ -17,6 +17,10 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500&family=Raleway:wght@500;700&family=Roboto&family=Rubik:wght@400;500&family=Source+Sans+Pro:wght@600&display=swap"
         rel="stylesheet">
 
+    <!----------------SEIPER JS---------->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -276,11 +280,201 @@
         </div>
     </section>
 
+    <!-----------------------END OF FAQs SECTION -------------------------------->
 
- <!-----------------------END OF FAQs SECTION -------------------------------->
 
 
+
+
+    <section class="container testimonials_container mySwiper">
+        <h2>Students Testimonials</h2>
+        <div class="swiper-wrapper">
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>MD Bappa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum! Vel esse corrupti
+                        temporibus soluta consectetur natus, est tenetur nihil?
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>MD Bappa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum! Vel esse corrupti
+                        temporibus soluta consectetur natus, est tenetur nihil?
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>MD Bappa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum! Vel esse corrupti
+                        temporibus soluta consectetur natus, est tenetur nihil?
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>MD Bappa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum! Vel esse corrupti
+                        temporibus soluta consectetur natus, est tenetur nihil?
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>MD Bappa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum! Vel esse corrupti
+                        temporibus soluta consectetur natus, est tenetur nihil?
+                    </p>
+                </div>
+            </article>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!-----------------------END TESTIMONIAL SECTION -------------------------------->
+
+
+
+
+
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Feel Science</h4>
+                </a>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ratione.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>PermaLinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+88-01521536417</p>
+                    <p>abutanif366@gmail.com</p>
+                </div>
+                
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="footer_copyright">
+            <small>Copyright &copy; Feel Science</small>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
 
 </body>
 
