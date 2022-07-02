@@ -158,6 +158,136 @@ header{
     margin-bottom: 5rem;
 }
 
+.header_title{
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.header_title::before{
+    content: 'Feel Science';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    animation: typing 4s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'F|';
+    }
+
+    5% {
+        content: 'Fe|';
+    }
+
+    10% {
+        content: 'Fee|';
+    }
+
+    15% {
+        content: 'Feel|';
+    }
+
+    20% {
+        content: 'Feel |';
+    }
+
+    25% {
+        content: 'Feel S|';
+    }
+
+    30% {
+        content: 'Feel Sc|';
+    }
+
+    35% {
+        content: 'Feel Sci|';
+    }
+
+    40% {
+        content: 'Feel Scie|';
+    }
+
+    45% {
+        content: 'Feel Scien|';
+    }
+
+    50% {
+        content: 'Feel Scienc|';
+    }
+
+    55% {
+        content: 'Feel Science|';
+    }
+
+    60% {
+        content: 'Feel Science|';
+    }
+
+    64%,
+    86% {
+        content: 'Feel Science|';
+    }
+
+    87% {
+        content: 'Feel Scienc|';
+    }
+
+    88% {
+        content: 'Feel Scien|';
+    }
+
+    89% {
+        content: 'Feel Scie|';
+    }
+
+    90% {
+        content: 'Feel Sci|';
+    }
+
+    91% {
+        content: 'Feel Sc|';
+    }
+
+    92% {
+        content: 'Feel S|';
+    }
+
+    93% {
+        content: 'Feel |';
+    }
+
+    94% {
+        content: 'Feel|';
+    }
+
+    95% {
+        content: 'Fee|';
+    }
+
+    96% {
+        content: 'Fe|';
+    }
+
+    97% {
+        content: 'F';
+    }
+
+    98% {
+        content: '|';
+    }
+
+    99% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    }
+}
+
 .header_container{
     display: grid;
     grid-template-columns: 1fr 1fr;

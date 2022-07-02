@@ -23,11 +23,11 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-<style>
+    <!-- <style>
     body {
         background-image: url("./images//bg-texture.png");
     }
-</style>
+</style> -->
 
 </head>
 
@@ -49,13 +49,13 @@
     </nav>
 
 
-<!-----------------------NAVBAR END------------------->
+    <!-----------------------NAVBAR END------------------->
 
 
-    <header>
+    <!-- <header>
         <div class="container header_container">
             <div class="header_left">
-                <h1>Grow your skill to advance your career path</h1>
+                <h1 class="header_title">Feel Science</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore debitis cumque nisi
                     repellat reprehenderit voluptas facilis esse quo culpa Dolor, numquam?
@@ -68,7 +68,81 @@
                 </div>
             </div>
         </div>
+    </header> -->
+
+
+    <header class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="container header_container">
+                    <div class="header_left">
+                        <h1 class="header_title">Feel Science</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore debitis cumque
+                            nisi
+                            repellat reprehenderit voluptas facilis esse quo culpa Dolor, numquam?
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="header_right">
+                        <div class="header_right-image">
+                            <img src="./images/header.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="container header_container">
+                    <div class="header_left">
+                        <h1 class="header_title">Feel Science</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore debitis cumque
+                            nisi
+                            repellat reprehenderit voluptas facilis esse quo culpa Dolor, numquam?
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="header_right">
+                        <div class="header_right-image">
+                            <img src="./images/header2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="container header_container">
+                    <div class="header_left">
+                        <h1 class="header_title">Feel Science</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore debitis cumque
+                            nisi
+                            repellat reprehenderit voluptas facilis esse quo culpa Dolor, numquam?
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="header_right">
+                        <div class="header_right-image">
+                            <img src="./images/header3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- If we need pagination
+        <div class="swiper-pagination"></div> -->
+
     </header>
+
+
+
+
+
+
 
 
     <!-----------------------HEADER END------------------->
@@ -297,7 +371,7 @@
 
 
     <section class="container testimonials_container mySwiper">
-        <h2>Students Testimonials</h2>
+        <h2>Feedback From Students</h2>
         <div class="swiper-wrapper">
 
             <article class="testimonial swiper-slide">
@@ -429,7 +503,7 @@
                     <p>+88-01521536417</p>
                     <p>abutanif366@gmail.com</p>
                 </div>
-                
+
                 <ul class="footer_socials">
                     <li>
                         <a href="#"><i class="uil uil-facebook"></i></a>
@@ -447,7 +521,7 @@
             </div>
 
         </div>
-        
+
         <div class="footer_copyright">
             <small>Copyright &copy; Feel Science</small>
         </div>
@@ -470,12 +544,32 @@
     <script src="./main.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            
+            pagination: {
+                el: '.swiper-pagination',
+                clickable:true
+            }
+        });
+    </script>
+
+
+    <script>
+          var swiper1 = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
             },
             // when window width is >= 600px
             breakpoints: {
@@ -485,6 +579,7 @@
             }
         });
     </script>
+
 
 </body>
 
