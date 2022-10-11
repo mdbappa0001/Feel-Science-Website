@@ -10,12 +10,23 @@
     <!-------ICONSCOUT CDN--------->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!-------FontAwesome CDN--------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
     <!------------------FONT FAMILY (Montserrat)----------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500&family=Raleway:wght@500;700&family=Roboto&family=Rubik:wght@400;500&family=Source+Sans+Pro:wght@600&display=swap"
         rel="stylesheet">
+
+
+            <!--------------JQUERY JS----------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -29,19 +40,18 @@
 
 
 <body>
+    
     <nav>
-        <div class="container nav_container">
-            <a href="index.html">
-                <h4>Feel Science</h4>
-            </a>
-            <ul class="nav_menu">
+        <img src="./images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            <img id="menu-btn" src="./images/menu.jpg" alt="">
         </div>
     </nav>
 
@@ -112,7 +122,22 @@
 
             <article class="team_member">
                 <div class="team_member-image">
-                    <img src="./images/tm1.jpg">
+                    <img src="./images/sohel.jpg">
+                </div>
+                <div class="team_member-info">
+                    <h4>Sohel Jahed</h4>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team_member-social">
+                    <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team_member">
+                <div class="team_member-image">
+                    <img src="./images/sayem.jpg">
                 </div>
                 <div class="team_member-info">
                     <h4>Sayem Rahman</h4>
@@ -127,11 +152,11 @@
 
             <article class="team_member">
                 <div class="team_member-image">
-                    <img src="./images/tm2.jpg">
+                    <img src="./images/mehedi.jpg">
                 </div>
                 <div class="team_member-info">
-                    <h4>Sayem Rahman</h4>
-                    <p>Founder & CEO</p>
+                    <h4>Md Mehedi Hasan</h4>
+                    <p>Teacher</p>
                 </div>
                 <div class="team_member-social">
                     <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
@@ -142,11 +167,11 @@
 
             <article class="team_member">
                 <div class="team_member-image">
-                    <img src="./images/tm3.jpg">
+                    <img src="./images/toha.jpg">
                 </div>
                 <div class="team_member-info">
-                    <h4>Sayem Rahman</h4>
-                    <p>Founder & CEO</p>
+                    <h4>Istikher Faruquee Toha</h4>
+                    <p>Teacher</p>
                 </div>
                 <div class="team_member-social">
                     <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
@@ -157,11 +182,11 @@
 
             <article class="team_member">
                 <div class="team_member-image">
-                    <img src="./images/tm4.jpg">
+                    <img src="./images/shaffin.jpg">
                 </div>
                 <div class="team_member-info">
-                    <h4>Sayem Rahman</h4>
-                    <p>Founder & CEO</p>
+                    <h4>Shafin Sharraj</h4>
+                    <p>Teacher</p>
                 </div>
                 <div class="team_member-social">
                     <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
@@ -172,26 +197,11 @@
 
             <article class="team_member">
                 <div class="team_member-image">
-                    <img src="./images/tm5.jpg">
+                    <img src="./images/bappa.jpg">
                 </div>
                 <div class="team_member-info">
-                    <h4>Sayem Rahman</h4>
-                    <p>Founder & CEO</p>
-                </div>
-                <div class="team_member-social">
-                    <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a>
-                </div>
-            </article>
-
-            <article class="team_member">
-                <div class="team_member-image">
-                    <img src="./images/tm6.jpg">
-                </div>
-                <div class="team_member-info">
-                    <h4>Sayem Rahman</h4>
-                    <p>Founder & CEO</p>
+                    <h4>Abu Tanif MD Bappa</h4>
+                    <p>Developer & Designer</p>
                 </div>
                 <div class="team_member-social">
                     <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
@@ -229,6 +239,8 @@
                     <a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a>
                 </div>
             </article>
+
+            
 
         </div>
     </section>
@@ -304,6 +316,16 @@
 
 
     <script src="./main.js"></script>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
 
 </body>
 

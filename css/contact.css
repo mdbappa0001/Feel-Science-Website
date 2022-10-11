@@ -1,5 +1,6 @@
 .contact_container {
-    background: var(--color-bg1);
+    /* background: var(--color-bg1); */
+    background: black;
     padding: 4rem;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -13,7 +14,8 @@
 /*==================ASIDE START=======================*/
 
 .contact_aside {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
+    background: #23cf20;
     padding: 3rem;
     border-radius: 1rem;
     position: relative;
@@ -42,6 +44,10 @@
     margin-bottom: 1rem;
 }
 
+.contact_details li h5 {
+    font-size: 0.9rem;
+}
+
 .contact_socials {
     display: flex;
     gap: 0.8rem;
@@ -49,7 +55,8 @@
 }
 
 .contact_socials a {
-    background: var(--color-bg2);
+    /* background: var(--color-bg2); */
+    background: black;
     padding: 0.5rem;
     border-radius: 50%;
     font-size: 0.9rem;
@@ -83,8 +90,10 @@ input,
 textarea {
     width: 100%;
     padding: 1rem;
-    background: var(--color-bg);
-    color: var(--color-white);
+    /* background: var(--color-bg); */
+    background: #ffffff;
+    /* color: var(--color-white); */
+    color: black;
 }
 
 .contact_form .btn {
